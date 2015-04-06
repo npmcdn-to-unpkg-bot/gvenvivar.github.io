@@ -1,0 +1,342 @@
+html { 
+	background: url(img/grey2.jpg) repeat;
+        background-attachment: fixed;
+        height:100%;
+        
+}
+body{
+	font-family: Arial, Trebuchet MS, sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+        height:100%;
+        
+}
+#guts{
+    display: block;
+}
+#allwrap{
+        
+	background: url(img/2.jpg) repeat ;
+        background: linear-gradient(to right,#FFFFFF,#F0FFFF);
+        max-width:980px;
+	margin: 0px auto -150px auto;
+	padding: 0;
+	border:1px solid;
+        min-height:100%;
+        height: auto;
+       
+}
+img{
+    border: none;
+}
+#logo{
+        overflow: hidden;
+        width: 100%; 
+        
+}
+#logo a{
+    width: 100%;
+  
+}
+#logo a img{
+	margin: 0 auto;
+        display: block;
+        
+}
+
+.clr{
+	clear:both;
+}
+#topmain{
+	font-family: Times New Roman, Arial, Century Gothic, Verdana, sans-serif;
+	font-weight: bold;
+	height: 32px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        
+}
+
+.main-menu{
+	position:relative;
+	list-style:none;
+	text-align: center;
+	width: 100%;
+        margin-left: -35px;
+        
+}
+
+.main-menu li {
+	position: relative;
+        display:inline-block;
+	width:24%
+}
+ .main-menu li a { 
+        display: block;
+        text-decoration: underline;
+	color: #f7f7f7;
+   }
+.main-menu li a:hover{
+        text-decoration: none;   
+   }
+
+ 
+ #main{
+	margin-left:20px;
+	margin-top:50px;
+        margin-right:20px;
+}
+#photo{
+        position:relative;
+	list-style:none;
+	text-align: center;
+}
+#photo ul {
+        position: absolute;
+        width:83%;
+	z-index:1000;
+        opacity: 0.8;
+        background:#5F5F5F;
+       
+}
+#photo ul li{
+        display: block;
+        position: relative;
+        width: 100%;
+       
+}
+#photo ul li a{
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-left: -40px;
+        padding-left: 40px;
+        
+}
+
+.image-set{
+	text-align:justify;
+}
+
+a img{
+    padding:5px;
+    
+}
+#gallery{
+    text-align: center;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto 20px auto;
+    display: block;
+    overflow: hidden;
+    border: 1px solid red;
+}
+#gallery img{
+    max-width: 100%;
+    display: block;
+    
+}
+.example-image{
+    box-shadow: 9px 9px 9px #888;
+    
+}
+.box {
+    position: relative;
+    max-width:290px;
+    border: 3px solid #0a3c59;
+    background: #a6cee3;
+    -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   margin-bottom: 50px;
+}
+.box p img{
+    padding-top: 15px;
+    padding-left: 25px;
+    vertical-align: middle;
+}
+.contacts-bar{
+    line-height: 50px;
+}
+#contacts{
+    padding-left: 50px;
+}
+h2{
+    padding-left: 150px;
+}
+#me-block{
+    border: 2px #a6cee3 solid;
+    background: #cae1ff;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+}
+#me img{
+    max-width: 250px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+#aboutme{
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+#aboutpaints img{
+    width: 90%;
+    margin: 0 auto 30px auto;
+    padding: 0 50px;
+   
+}
+#aboutpaints p{
+    text-align: justify;
+    padding-left: 100px;
+    margin-right: 50px;
+}
+#sign{
+    text-align: right;
+    margin-right: 100px;
+}
+
+.menu{
+    background:#5F5F5F;
+}
+
+.menu a:hover{
+    position: relative;
+    background-color: #a6cee3;
+}
+#wrapgallery{
+    max-width: 940px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.viewgallery{
+    border: 3px solid #eee;
+    float: left;
+    max-height: 299px;
+    margin: 0 9px 9px 0;
+    overflow: hidden;
+    position: relative;
+    max-width: 450px;
+ 
+}
+.viewgallery a{
+    display: block;
+    position: relative;
+}
+.viewgallery a img{
+    max-height: 332px;
+    left: -20px;
+    position: relative;
+    top: -20px;
+    max-width: 500px;
+}
+.viewgallery a span{
+    display: none;
+    font-size: 2.0em;
+    font-weight: bold;
+    height: 100%;
+    padding-top: 120px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 100;
+}
+.image-tip{
+    background-color: rgba(15, 15, 15, 0.6);
+    color: #fff;
+    text-shadow: #000 0px 0px 20px;
+}
+#lang{
+    float: right;
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+#allwrap:after{
+    content: '';
+    display: block;
+    height: 150px;
+}
+#footer{
+    margin: 0 auto 0 auto;
+    max-width: 980px;
+    height: 150px;
+    background: #808080;
+}
+#footer p{
+    text-align: center;
+    padding-top: 50px;
+}
+#footer p span{
+    font-style: italic;
+    color: #ccc2aa;
+}
+.image-set a img{
+    height: 200px;
+}    
+
+@media screen and (max-width:768px){
+    #allwrap{
+        width: 100%;
+    }
+    #gallery img{
+        max-width: 100%;
+        min-width: 200px;
+    }
+    #aboutpaints img{
+        max-width: 100%;
+        margin: 0 auto 10px auto;
+        min-width: 200px;
+        display: block;
+    }
+    .image-set{
+        text-align: center;
+    }
+   #aboutme{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #me img{
+        max-width: 150px;
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-right:10px;
+    }
+    #aboutpaints p{
+    padding-left: 10px;
+    margin-right: 10px;
+    }
+    h2{
+    padding-left: 30px;
+    }
+    .viewgallery{
+        float: none;
+        margin: 10px auto 0 auto;
+    }    
+    .image-set a img{
+        height: 100px;
+        width: auto;
+        text-align: center;
+    }
+    .pictures img{ 
+        height: 180px;
+        width: 240px;
+    }
+}
+
