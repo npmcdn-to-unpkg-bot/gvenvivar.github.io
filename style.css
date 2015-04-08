@@ -80,9 +80,7 @@ img{
 
  
  #main{
-	margin-left:20px;
-	margin-top:50px;
-        margin-right:20px;
+    margin: 50px 1% 0 1%;
 }
 #photo{
     position:relative;
@@ -290,7 +288,7 @@ h2{
         width: 100%;
     }
     #gallery img{
-        max-width: 100%;
+        width: 100%;
         min-width: 200px;
     }
     #aboutpaints img{
@@ -344,5 +342,9 @@ h2{
         text-align: center;
         margin: 0; padding: 0; 
      }
+     #gallery{
+        width: 100%;
+        margin: 0;
+    }
 }
 
