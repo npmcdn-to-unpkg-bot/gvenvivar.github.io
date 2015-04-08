@@ -3,7 +3,6 @@ $(document).ready(function() {
         $('li#photo').hover(
         function() {$('li#photo ul').fadeIn('slow').stop(true, true)},
         function() {$('li#photo ul').fadeOut().stop(true, true)});
-    $('.box').animate({left: '+=50px'}, 1000);
 }); 
 $(document).ready(function() {
         $('.viewgallery').mouseenter(function(e) {
