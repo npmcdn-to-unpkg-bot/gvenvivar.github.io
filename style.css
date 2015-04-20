@@ -126,6 +126,7 @@ a img{
 #gallery{
     text-align: center;
     width: 80%;
+    height: 600px;
     margin: 0 auto 20px auto;
     display: block;
     overflow: hidden;
@@ -285,7 +286,17 @@ h2{
 }
 .image-set a img{
     height: 200px;
-}    
+}  
+.gallery img{
+    display: block;
+    height: 600px;
+    margin: 0 auto;
+}
+.gallery-cell {
+    width: 100%; /* full width */
+    position: relative;
+    
+}
 
 @media screen and (max-width:768px){
     #allwrap{
@@ -355,3 +366,8 @@ h2{
 
 }
 
+@media screen and (max-width:480px){
+    #gallery{
+        height: 300px;
+    }
+}

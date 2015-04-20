@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title> Галерея Елены Реент </title>
+	<meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="css/flickity.css" media="screen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="mainJS.js"></script>
+</head>
+<body>
+	<div id="allwrap">
+		<div id="header">
+                        <div id='lang'>
+                            <a href="#">
+                                <img src="img/ru.jpg" alt='russian' height='35'></a>
+
+                            <a href="#">
+                                <img src="img/eng.jpg" alt='english' height='35'></a>
+                        </div>
+                    <div class="clr"></div>
+			<div id='logo'>
+				<a href="index.html">
+					<img src='img/name.png' >
+				</a>
+			
+			</div>
+			<div class="clr">
+			</div>
+			<div id="topmain">
+				<div id="topm">
+					<ul class="main-menu">
+					<li class='menu' id="paints"><a href="paints2.html">Картины</a></li>
+					<li class='menu' id="photo"><a href="photogallery.html">Фотографии</a>
+                                            <ul >
+                                                <li><a href='photo.html'>Галерея1</a></li>
+                                                <li><a href='#5'>Галерея2</a></li>
+                                                <li><a href='#5'>Галерея3</a></li>
+                                            </ul>
+                                        </li>
+					<li class='menu'><a href="aboutme.html">Обо Мне</a></li>
+					<li class='menu'><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="gallery js-flickity" data-flickity-options='{ "imagesLoaded": true, "percentPosition": false}'>
+			  <div class="gallery-cell"><img src="img/slider/1.jpg" alt="slide1"></div>
+			  <div class="gallery-cell"><img src="img/slider/2.jpg" alt="slide2"></div>
+			  <div class="gallery-cell"><img src="img/slider/3.jpg" alt="slide3"></div>
+			  <div class="gallery-cell"><img src="img/slider/4.jpg" alt="slide4"></div>
+			  <div class="gallery-cell"><img src="img/slider/5.jpg" alt="slide5"></div>
+			</div>
+		<div class='clr'></div>	
+        </div>    
+        </div>
+        
+         
+         <div id="footer">
+                    <p><span>
+                        © Профессиональный Художник Елена Реент <br> 
+                        Копирование материалов сайта только с разрешения владельца! 
+                    </span></p>
+        </div>
+<script src="js/flickity.pkgd.min.js"></script>		
+</body>
+</html>
