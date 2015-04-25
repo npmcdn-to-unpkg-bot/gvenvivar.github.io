@@ -12,19 +12,17 @@ body{
         height:100%;
         
 }
-#guts{
-    display: block;
-}
 #allwrap{
         
 	background: url(img/2.jpg) repeat ;
-        background: linear-gradient(to right,#FFFFFF,#F0FFFF);
-        max-width:980px;
+    background: linear-gradient(to right,#FFFFFF,#F0FFFF);
+    max-width:980px;
 	margin: 0px auto -150px auto;
 	padding: 0;
 	border:1px solid;
-        min-height:100%;
-        height: auto;
+    min-height:100%;
+    height: auto;
+    overflow: hidden;
        
 }
 img{
@@ -319,7 +317,7 @@ h2{
 
 @media screen and (max-width:768px){
     #allwrap{
-        width: 100%;
+        width: 99%;
     }
     #gallery img{
         width: 100%;
@@ -389,4 +387,7 @@ h2{
     #gallery{
         height: 300px;
     }
+   #wrapgallery{
+    padding: 0;
+   }
 }
