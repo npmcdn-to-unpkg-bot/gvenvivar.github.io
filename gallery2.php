@@ -4,50 +4,16 @@
 	<title> Галерея Елены Реент</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link href="litebox/css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
 	<div id="allwrap">
-		<div id="header">
-                        <div id='lang'>
-                            <a href="#">
-                                <img src="img/ru.jpg" alt='russian' height='35'></a>
+		
+		<?php include_once("header.html"); ?>
 
-                            <a href="#">
-                                <img src="img/eng.jpg" alt='english' height='35'></a>
-                        </div>
-			<div id='logo'>
-				<a href="index.html">
-					<img src='img/name.png' height="100">
-				</a>
-			</div>
-                        
-			<div id="headright">
-				
-			</div>
-			<div class="clr">
-			</div>
-                        
-			<div id="topmain">
-				<div id="topm">
-					<ul class="main-menu">
-					<li class='menu color1' id="paints"><a href="allpaints.html">Картины</a></li>
-					<li class='menu color2' id="photo"><a href="photogallery.html">Фотографии</a>
-                                            <ul >
-                                                <li><a href='photo.html'>Галерея1</a></li>
-                                                <li><a href='#5'>Галерея2</a></li>
-                                                <li><a href='#5'>Галерея3</a></li>
-                                            </ul>
-                                        </li>
-					<li class='menu color3'><a href="aboutme.html">Обо Мне</a></li>
-					<li class='menu color4'><a href="contacts.html">Контакты</a></li>
-					</ul>
-				</div>
-			</div>
-                </div>
 			<div id="main_g">
-			<div id="guts">
+			
 				<div class="image-row">
 				<div class="image-set">
 					<a class="example-image-link" href="img/paints/full/4.jpg" data-lightbox="example-set" data-title="Белый конь.  White horse. <br>
@@ -62,7 +28,7 @@
 					<a class="example-image-link" href="img/paints/full/22.jpg" data-lightbox="example-set" data-title="Рыжий конь. Red horse. <br>
 					Пастель/ Бумага / 50 х 60 .Pastel / paper">
 						<img class="example-image" src="img/paints/22.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/8.jpg" data-lightbox="example-set" data-title="8. Альпийская порода. Alpine breed. <br>
+					<a class="example-image-link" href="img/paints/full/8.jpg" data-lightbox="example-set" data-title="Альпийская порода. Alpine breed. <br>
 					Пастель / бумага 60 х 50 . Pastel / paper <br>
 					Картина оформлена в раму, антибликовое стекло. <br>
 					Framed, passé- partout, non-reflecting glass">
@@ -105,16 +71,12 @@
 				</div>
 				
 				
-			</div>
+			
 			</div>
 
 	</div>
-        <div id="footer">
-                            <p><span>
-                        © Художник Елена Реент <br> 
-                        Копирование материалов сайта только с разрешения владельца! 
-                    </span></p>
-		</div>
+    	<?php include_once("footer.html"); ?>
+    	
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" src="mainJS.js"></script>
 <script src="litebox/js/lightbox.js"></script>

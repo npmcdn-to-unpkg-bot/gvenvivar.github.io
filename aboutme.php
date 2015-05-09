@@ -4,48 +4,13 @@
 	<title> Галерея Елены Реент </title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	
 </head>
 <body>
 	<div id="allwrap">
-		<div id="header">
-                        <div id='lang'>
-                            <a href="#">
-                                <img src="img/ru.jpg" alt='russian' height='35'></a>
-
-                            <a href="#">
-                                <img src="img/eng.jpg" alt='english' height='35'></a>
-                        </div>
-			<div id='logo'>
-				<a href="index.html">
-					<img src='img/name.png' height="100">
-				</a>
-			</div>
-			<div id="headright">
-				
-			</div>
-			<div class="clr">
-			</div>
-			<div id="topmain">
-				<div id="topm">
-					<ul class="main-menu">
-					<li class='menu color1' id="paints"><a href="allpaints.html">Картины</a></li>
-					<li class='menu color2' id="photo"><a href="photogallery.html">Фотографии</a>
-                                            <ul >
-                                                <li><a href='photo.html'>Галерея1</a></li>
-                                                <li><a href='#5'>Галерея2</a></li>
-                                                <li><a href='#5'>Галерея3</a></li>
-                                            </ul>
-                                        </li>
-					<li class='menu color3'><a href="aboutme.html">Обо Мне</a></li>
-					<li class='menu color4'><a href="contacts.html">Контакты</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		<?php include_once("header.html"); ?>
             <div class="main">
-            <div id="guts">
                 <div id='me-block'>
                     <div id='me'><img src='img/me.jpg' alt='Елена Реент'></div>
                     <div id='aboutme'>
@@ -72,17 +37,12 @@
                     <p>Живопись Елены Реент чиста и жизнерадостна, и не может не импонировать открытому, непосредственному восприятию жизни в ее красоте и естественной простоте.</p>
                     </div>
                 </div>
-            </div>  
             </div>
              
             
         </div>
-        <div id="footer">
-                    <p><span>
-                        © Художник Елена Реент <br> 
-                        Копирование материалов сайта только с разрешения владельца! 
-                    </span></p>
-	</div>
+        
+        <?php include_once("footer.html"); ?>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" src="mainJS.js"></script>
 </body>

@@ -4,69 +4,33 @@
 	<title> Галерея Елены Реент</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link href="litebox/css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
 	<div id="allwrap">
-		<div id="header">
-                        <div id='lang'>
-                            <a href="#">
-                                <img src="img/ru.jpg" alt='russian' height='35'></a>
+		
+		<?php include_once("header.html"); ?>
 
-                            <a href="#">
-                                <img src="img/eng.jpg" alt='english' height='35'></a>
-                        </div>
-			<div id='logo'>
-				<a href="index.html">
-					<img src='img/name.png' height="100">
-				</a>
-			</div>
-                        
-			<div id="headright">
-				
-			</div>
-			<div class="clr">
-			</div>
-                        
-			<div id="topmain">
-				<div id="topm">
-					<ul class="main-menu">
-					<li class='menu color1' id="paints"><a href="paints2.html">Картины</a></li>
-					<li class='menu color2' id="photo"><a href="photogallery.html">Фотографии</a>
-                                            <ul >
-                                                <li><a href='photo.html'>Галерея1</a></li>
-                                                <li><a href='#5'>Галерея2</a></li>
-                                                <li><a href='#5'>Галерея3</a></li>
-                                            </ul>
-                                        </li>
-					<li class='menu color3'><a href="aboutme.html">Обо Мне</a></li>
-					<li class='menu color4'><a href="contacts.html">Контакты</a></li>
-					</ul>
-				</div>
-			</div>
-                </div>
 			<div id="main_g">
-			<div id="guts">
+			
 				<div class="image-row">
 				<div class="image-set">
 					<!-- new -->
-					<a class="example-image-link" href="img/paints/full/101.jpg" data-lightbox="example-set" data-title="Алые кувшинки. Scarlet water llilies.<br> Масло/ холст/80 х90. Oil/canvas">
+					<a class="example-image-link" href="img/paints/full/101.jpg" data-lightbox="example-set" data-title="Ожерелье для русалки, Necklace for the mermaid <br>
+					Масло/холст/ 60 х 100. Oil / canvas">
 						<img class="example-image" src="img/paints/101.jpg"  alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/102.jpg" data-lightbox="example-set" data-title="Картина продана. Sold.<br>
-					Первые тюльпаны. First tulips.<br>
-					Масло / холст /70 х 50. Oil / canvas">
+					<a class="example-image-link" href="img/paints/full/102.jpg" data-lightbox="example-set" data-title="Голубое зеркало. Blue mirror <br>
+					Масло/холст/ 60 х 100. Oil / canvas">
 						<img class="example-image" src="img/paints/102.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/103.jpg" data-lightbox="example-set" data-title=" Священный лотос. Sacred lotus <br>
-					Масло / холст / 50 х 100.  Oil / Canvas">
+                    <a class="example-image-link" href="img/paints/full/103.jpg" data-lightbox="example-set" data-title=" Подводный мир. Underwater world <br>
+					Масло/холст/ 90 х 80. Oil / canvas">
 						<img class="example-image" src="img/paints/103.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/104.jpg" data-lightbox="example-set" data-title="Белый конь.  White horse. <br>
-					Пастель, бумага. Pastel, paper 50 х 60 <br>
-					Картина оформлена в раму, паспарту, антибликовое стекло. <br>
-					Framed, passe-partout, non-reflecting glass">
+					<a class="example-image-link" href="img/paints/full/104.jpg" data-lightbox="example-set" data-title="Лотосы под дождем (Аватар). Lotuses in the rain ( Avatar) <br>
+					Масло/холст/ 70 х 90. Oil / canvas">
 						<img class="example-image" src="img/paints/104.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/105.jpg" data-lightbox="example-set" data-title="Огненный. Fiery <br>
-					Масло / Холст / 100 x 50. Oil / canvas">
+					<a class="example-image-link" href="img/paints/full/105.jpg" data-lightbox="example-set" data-title="Солнечное озеро. Solar lake <br>
+					Масло/холст/ 70 х 100. Oil / canvas">
 						<img class="example-image" src="img/paints/105.jpg" height="200" alt=""/></a>
 					<a class="example-image-link" href="img/paints/full/106.jpg" data-lightbox="example-set" data-title="Хафлингер. Haflinger. <br>
 					Масло / холст . Oil / canvas / 50 х 60">
@@ -81,7 +45,8 @@
 					Framed, passé- partout, non-reflecting glass">
 						<img class="example-image" src="img/paints/108.jpg" height="200" alt=""/></a>
 					<!-- end new -->
-                   <a class="example-image-link" href="img/paints/full/1.JPG" data-lightbox="example-set" data-title="Алые кувшинки. Scarlet water llilies.<br> Масло/ холст/80 х90. Oil/canvas">
+                   <a class="example-image-link" href="img/paints/full/1.JPG" data-lightbox="example-set" data-title="Красные водяные лилии. Red water lilies <br>
+					Масло/холст/ 70 х 90. Oil / canvas">
 						<img class="example-image" src="img/paints/1.jpg"  alt=""/></a>
 					<a class="example-image-link" href="img/paints/full/2.jpg" data-lightbox="example-set" data-title="Картина продана. Sold.<br>
 					Первые тюльпаны. First tulips.<br>
@@ -90,11 +55,9 @@
                     <a class="example-image-link" href="img/paints/full/3.jpg" data-lightbox="example-set" data-title=" Священный лотос. Sacred lotus <br>
 					Масло / холст / 50 х 100.  Oil / Canvas">
 						<img class="example-image" src="img/paints/3.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/4.jpg" data-lightbox="example-set" data-title="Белый конь.  White horse. <br>
-					Пастель, бумага. Pastel, paper 50 х 60 <br>
-					Картина оформлена в раму, паспарту, антибликовое стекло. <br>
-					Framed, passe-partout, non-reflecting glass">
-						<img class="example-image" src="img/paints/4.jpg" height="200" alt=""/></a>
+					<a class="example-image-link" href="img/paints/full/110.jpg" data-lightbox="example-set" data-title="Алые нимфеи. Scarlet water-lilies <br>
+					Масло/холст/ 70 х 90. Oil / canvas">
+						<img class="example-image" src="img/paints/110.jpg" height="200" alt=""/></a>
 					<a class="example-image-link" href="img/paints/full/5.jpg" data-lightbox="example-set" data-title="Огненный. Fiery <br>
 					Масло / Холст / 100 x 50. Oil / canvas">
 						<img class="example-image" src="img/paints/5.jpg" height="200" alt=""/></a>
@@ -105,11 +68,6 @@
 					Масло / холст 60 х 80. Oil / canvas <br>
 					Картина оформлена в раму. Framed.">
 						<img class="example-image" src="img/paints/7.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/8.jpg" data-lightbox="example-set" data-title="8. Альпийская порода. Alpine breed. <br>
-					Пастель / бумага 60 х 50 . Pastel / paper <br>
-					Картина оформлена в раму, антибликовое стекло. <br>
-					Framed, passé- partout, non-reflecting glass">
-						<img class="example-image" src="img/paints/8.jpg" height="200" alt=""/></a>
 					<a class="example-image-link" href="img/paints/full/9.jpg" data-lightbox="example-set" data-title="Картина продана. Sold. <br>
 					'Альпийские хафлингеры'. Alpine hafflingers. <br>
 					Масло / Холст 60 х 75. Oil/ canvas">
@@ -118,10 +76,6 @@
 					Масло / холст . Oil / canvas 50 х 60 <br>
 					Не продается. Not for sale.">
 						<img class="example-image" src="img/paints/10.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/11.jpg" data-lightbox="example-set" data-title="Ветер прерий . Wind of prairies <br>
-					Пастель/ Бумага / 50 х 65. Pastel/ paper <br>
-					Картина продана . Sold.">
-						<img class="example-image" src="img/paints/11.jpg" height="200" alt=""/></a>
                     <a class="example-image-link" href="img/paints/full/12.jpg" data-lightbox="example-set" data-title="Пионовая поляна. Peony glade. <br>
 					Масло / холст / 60 х 70 . Oiil/ canvas">
 						<img class="example-image" src="img/paints/12.jpg" height="200" alt=""/></a>
@@ -156,12 +110,6 @@
                     <a class="example-image-link" href="img/paints/full/21.jpg" data-lightbox="example-set" data-title="Гепард. Охота. Cheetah hunting. <br>
 					Масло /холст / 50 х 130.. Oil /canvas">
 						<img class="example-image" src="img/paints/21.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/22.jpg" data-lightbox="example-set" data-title="Рыжий конь. Red horse. <br>
-					Пастель/ Бумага / 50 х 60 .Pastel / paper">
-						<img class="example-image" src="img/paints/22.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/23.jpg" data-lightbox="example-set" data-title="Хозяин двора. Owner of the yard. <br>
-					Акварель/ Бумага / 70 х 50. Watercolor on paper.">
-						<img class="example-image" src="img/paints/23.jpg" height="200" alt=""/></a>
 					<a class="example-image-link" href="img/paints/full/24.jpg" data-lightbox="example-set" data-title="Пески пустыни. Desert sand <br>
 					Масло/ холст / 40 х 60. Oil/ canvas">
 						<img class="example-image" src="img/paints/24.jpg" height="200" alt=""/></a>
@@ -185,19 +133,15 @@
 					Ирисовая мозаика. Iris mosaic. <br>
 					Масло / Холст/  60 х 40. Oil/ canvas">
 						<img class="example-image" src="img/paints/30.jpg" height="200" alt=""/></a>
+						<a class="example-image-link" href="img/paints/full/65.jpg" data-lightbox="example-set" data-title="Осенняя палитра. Autumn palette <br>
+					Масло/ Холст /60 х 50. Oil / canvas">
+						<img class="example-image" src="img/paints/65.jpg" height="200" alt=""/></a>
                     <a class="example-image-link" href="img/paints/full/31.jpg" data-lightbox="example-set" data-title="Картина продана. Sold. <br>
 					Приют в облаках. Shelter in clouds <br>
 					Масло / Холст / 40 х 80. Oil / canvas">
 						<img class="example-image" src="img/paints/31.jpg" height="200" alt=""/></a>
                     <a class="example-image-link" href="img/paints/full/32.jpg" data-lightbox="example-set" data-title="Утро в яхт клубе. Morning in yacht club <br>
 					Акварель / Бумага / 70 х 50.  Watercolor on paper.">
-						<img class="example-image" src="img/paints/32.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/33.jpg" data-lightbox="example-set" data-title=" Зима в итальянских Альпах. Winter in the Italian Alps <br>
-					Акварель / Бумага / 70 х 50.  Watercolor on paper.">
-						<img class="example-image" src="img/paints/33.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/34.jpg" data-lightbox="example-set" data-title="Серия Санторини. Белый дворик. <br>
-					Series Santorini. White court yard. <br>
-					Масло / холст / 80 х 60 . Oil / canvas">
 						<img class="example-image" src="img/paints/34.jpg" height="200" alt=""/></a>
                     <a class="example-image-link" href="img/paints/full/35.jpg" data-lightbox="example-set" data-title="Серия Санторини. Старая Мельница. <br>
 					Series Santorini. Old mill. <br>
@@ -221,13 +165,7 @@
 						<img class="example-image" src="img/paints/39.jpg" height="200" alt=""/></a>
                     <a class="example-image-link" href="img/paints/full/40.jpg" data-lightbox="example-set" data-title="Натюрморт с бутылкой. Still life with a bottle <br>
 					Масло, Холст 50 х 40. Oil/ canvas">
-						<img class="example-image" src="img/paints/40.jpg" height="200" alt=""/></a> 
-                    <a class="example-image-link" href="img/paints/full/41.jpg" data-lightbox="example-set" data-title="Бутылки в контражуре. Bottles in counteropenwork <br>
-					Масло/ холст / 40 х 60. Oil / canvas">
-						<img class="example-image" src="img/paints/41.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/42.jpg" data-lightbox="example-set" data-title=" Танцуюшая в храме. Dancing in the temple <br>
-					Пастель /Бумага / 70 х 50. Pastel/  paper">
-						<img class="example-image" src="img/paints/42.jpg" height="200" alt=""/></a>
+						<img class="example-image" src="img/paints/40.jpg" height="200" alt=""/></a>
 					<a class="example-image-link" href="img/paints/full/43.jpg" data-lightbox="example-set" data-title="Маковое поле в Крыму. Poppy field in the Crimea. <br>
 					Масло /холст / 40 х 90. Oil/  canvas">
 						<img class="example-image" src="img/paints/43.jpg" height="200" alt=""/></a>
@@ -269,16 +207,10 @@
                     <a class="example-image-link" href="img/paints/full/55.jpg" data-lightbox="example-set" data-title="Осень в глиняном горшке. Fall in a clay pot <br>
 					Масло /Холст / 50 х 50. Oil / canvas">
 						<img class="example-image" src="img/paints/55.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/56.jpg" data-lightbox="example-set" data-title="Желтое небо Венеции. Yellow sky of Venice. <br>
-					Акварель / Бумага / 50 x 70. Watercolor on paper.">
-						<img class="example-image" src="img/paints/56.jpg" height="200" alt=""/></a>
                     <a class="example-image-link" href="img/paints/full/57.jpg" data-lightbox="example-set" data-title="Венеция, жаркий полдень. Venice. Midday sun. <br>
 					Масло, /холст/ 90 х 60. Oil / canvas <br>
 					Картина оформлена в раму. Framed.">
 						<img class="example-image" src="img/paints/57.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/58.jpg" data-lightbox="example-set" data-title="Флорида.Чайки. Florida. Seagulls. <br>
-					Акварель/ бумага / 50 х 70. Watercolor on paper.">
-						<img class="example-image" src="img/paints/58.jpg" height="200" alt=""/></a>
                     <a class="example-image-link" href="img/paints/full/59.jpg" data-lightbox="example-set" data-title=" Подсолнухи на ветру. Sunflowers on a wind. <br>
 					Масло /Холст / 70 х 60.  Oil / canvas">
 						<img class="example-image" src="img/paints/59.jpg" height="200" alt=""/></a>
@@ -286,44 +218,22 @@
 					Карибы.  Caribbean beach. <br>
 					Масло /Холст / 40 х 50.  Oil / canvas">
 						<img class="example-image" src="img/paints/60.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/61.jpg" data-lightbox="example-set" data-title="Натюрморт с кисточками. Still life with brushes. <br>
-					Пастель / Бумага / 60 х 50. Pastel / paper <br>
-					Картина оформлена в раму,паспарту,антибликовое стекло
-					Framed, passé- partout, non-reflecting glass">
-						<img class="example-image" src="img/paints/61.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/62.jpg" data-lightbox="example-set" data-title="Бирюзовый натюрморт. Turquoise still life <br>
-					Пастель / бумага / 60 х 50 . Pastel / paper <br>
-					Картина оформлена в раму,паспарту,антибликовое стекло
-					Framed, passé- partout, non-reflecting glass">
-						<img class="example-image" src="img/paints/62.jpg" height="200" alt=""/></a>
 					<a class="example-image-link" href="img/paints/full/63.jpg" data-lightbox="example-set" data-title=" Картина продана. Sold <br>
 					На взлете. On take-off <br>
 					Масло/ Холст /40 х 60. Oil / canvas">
-						<img class="example-image" src="img/paints/63.jpg" height="200" alt=""/></a>
-					<a class="example-image-link" href="img/paints/full/64.jpg" data-lightbox="example-set" data-title="Карибы. Caribbean Islands <br>
-					Акварель / Бумага / 70 х 50 . Watercolor on paper">
-						<img class="example-image" src="img/paints/64.jpg" height="200" alt=""/></a>
-                    <a class="example-image-link" href="img/paints/full/65.jpg" data-lightbox="example-set" data-title="Осенняя палитра. Autumn palette <br>
-					Масло/ Холст /60 х 50. Oil / canvas">
-						<img class="example-image" src="img/paints/65.jpg" height="200" alt=""/></a>
-					
-                                             
-					
-					
+						<img class="example-image" src="img/paints/63.jpg" height="200" alt="" /></a>
+					<div class="clr"></div>	
 				</div>
 				</div>
 				
 				
-			</div>
+			
 			</div>
 
 	</div>
-        <div id="footer">
-                            <p><span>
-                        © Художник Елена Реент <br> 
-                        Копирование материалов сайта только с разрешения владельца! 
-                    </span></p>
-		</div>
+
+        <?php include_once("footer.html"); ?>
+
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" src="mainJS.js"></script>
 <script src="litebox/js/lightbox.js"></script>
