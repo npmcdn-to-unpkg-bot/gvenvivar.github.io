@@ -11,7 +11,7 @@ body{
     height:100%;     
 }
 #allwrap{ 
-	background: url(img/2.jpg) repeat ;
+	background: url(../img/2.jpg) repeat ;
     background: linear-gradient(to right,#FFFFFF,#F0FFFF);
     max-width:980px;
 	margin: 0px auto -150px auto;
