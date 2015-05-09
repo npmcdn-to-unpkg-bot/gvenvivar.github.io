@@ -85,15 +85,19 @@ img{
     margin: 50px 1% 0 1%;
  }
  #main_g{
-	margin-left:10px;
+	margin-left:20px;
 	margin-top:50px;
-    margin-right:10px;
+    margin-right:20px;
 }
 
 .image-set{
 	text-align:justify;
 }
 
+a img{
+    padding:5px;
+    
+}
 #gallery{
     text-align: center;
     width: 80%;
