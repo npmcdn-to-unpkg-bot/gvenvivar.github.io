@@ -153,7 +153,7 @@ h2{
     font-size: 20px;
     font-style: italic;
 }
-#me-block{
+.me-block{
     border: 2px #a6cee3 solid;
     background: #cae1ff;
     margin: 20px 5% 0 5%;
